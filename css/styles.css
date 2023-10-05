@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+}
+
+/* We mogen geen px gebruiken, maar dit had de andere docent zo gegeven, dus ik weet niet of ik dat moest aanpassen of niet  */
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
+
+header ul{
+    display: flex;
+    justify-content: flex-start;
+    gap: 4em;
+    background-color: rgb(219, 32, 32);
+    padding: 0.5em;
+    margin-top: 1.3em;
+    list-style-type: none;
+    font-family: sans-serif;  
+}
+
+.logo{
+    margin-top: 0.8em;
+}
+
+.trein{
+    max-width: 100%;
+    margin-top: 1.9em;
+}
+
+
+main h2{
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 1em;
+}
+
+
+
+.inleiding{
+    font-family: sans-serif;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.plezier{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+article{
+    font-family: sans-serif;
+    margin-bottom: 3em;
+    display: flex;
+}
+
+.knop{
+  margin: 1em;  
+  background-color: #ffeb6a;
+  padding: 1em;
+  text-align: center;
+  border: 0.1em solid #000000;
+  border-radius: 0.3em;
+}
+
+
+article div h2{
+    text-align: start;
+}
+
+
+article:nth-of-type(odd) {
+    flex-direction: row-reverse;
+    margin-left: 15em;
+}
+
+article:nth-of-type(even){
+    margin-right: 15em;
+}
+
+
+img {
+    max-width: 20%;
+}
+
+h3{
+    margin-top: 35px;
+    text-align: center;
+}
+
+
+.fotogalerij section div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 50em;
+    margin: auto;
+}
+
+.fotogalerij main section div img {
+    width: 15em;
+    max-width: none;
+    margin: .25em;
+}
+
+h4{
+    margin-left: 1em;
+    margin-top: 2em;
+}
+
+
+footer{
+    font-family: sans-serif;
+    font-size: smaller;
+    text-align: center;
+    margin-top: 6em;
+    background-color: rgb(204, 201, 201);
+}
+
